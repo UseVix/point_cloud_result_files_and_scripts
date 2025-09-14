@@ -1,0 +1,86 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 199151085111
+  starting_time:
+    nanoseconds_since_epoch: 1625132068848555078
+  message_count: 236791
+  topics_with_message_count:
+    - topic_metadata:
+        name: /os_node/lidar_packets
+        type: ouster_ros/msg/PacketMsg
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 127372
+    - topic_metadata:
+        name: /os_node/imu_packets
+        type: ouster_ros/msg/PacketMsg
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 19899
+    - topic_metadata:
+        name: /os_cloud_node/points/draco
+        type: point_cloud_interfaces/msg/CompressedPointCloud2
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 1991
+    - topic_metadata:
+        name: /os_cloud_node/points
+        type: sensor_msgs/msg/PointCloud2
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 1991
+    - topic_metadata:
+        name: /os_cloud_node/imu
+        type: sensor_msgs/msg/Imu
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 19902
+    - topic_metadata:
+        name: /loam_opensource
+        type: nav_msgs/msg/Odometry
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 1991
+    - topic_metadata:
+        name: /alphasense_driver_ros/cam4/compressed
+        type: sensor_msgs/msg/CompressedImage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 5971
+    - topic_metadata:
+        name: /alphasense_driver_ros/cam3/compressed
+        type: sensor_msgs/msg/CompressedImage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 5970
+    - topic_metadata:
+        name: /alphasense_driver_ros/cam1/compressed
+        type: sensor_msgs/msg/CompressedImage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 5970
+    - topic_metadata:
+        name: /alphasense_driver_ros/imu
+        type: sensor_msgs/msg/Imu
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 39763
+    - topic_metadata:
+        name: /alphasense_driver_ros/cam0/compressed
+        type: sensor_msgs/msg/CompressedImage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 5971
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - draco_ros2_0.db3
+  files:
+    - path: draco_ros2_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1625132068848555078
+      duration:
+        nanoseconds: 199151085111
+      message_count: 236791

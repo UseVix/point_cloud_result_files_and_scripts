@@ -1,0 +1,7 @@
+─────────────────────── Results for RosbagDataset Sequence draco_ros2_9_6_16 ───────────────────────
++-------------------+-------+-------+
+|            Metric | Value | Units |
++===================+=======+=======+
+| Average Frequency |   1   | Hz    |
+|   Average Runtime |  506  | ms    |
++-------------------+-------+-------+

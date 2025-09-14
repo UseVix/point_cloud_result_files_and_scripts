@@ -1,0 +1,7 @@
+──────────────────────── Results for RosbagDataset Sequence ros2_quad_easy ─────────────────────────
++-------------------+-------+-------+
+|            Metric | Value | Units |
++===================+=======+=======+
+| Average Frequency |   3   | Hz    |
+|   Average Runtime |  267  | ms    |
++-------------------+-------+-------+

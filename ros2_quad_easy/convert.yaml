@@ -1,0 +1,4 @@
+output_bags:
+  - uri: ros2_cloudini_db
+    storage_id: sqlite3
+    all: true

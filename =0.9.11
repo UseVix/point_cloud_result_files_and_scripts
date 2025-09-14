@@ -1,0 +1,8 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: rosbags in /home/risalinux/.local/lib/python3.10/site-packages (0.10.9)
+Requirement already satisfied: numpy in /home/risalinux/.local/lib/python3.10/site-packages (from rosbags) (1.26.4)
+Requirement already satisfied: lz4 in /usr/lib/python3/dist-packages (from rosbags) (3.1.3+dfsg)
+Requirement already satisfied: ruamel.yaml in /home/risalinux/.local/lib/python3.10/site-packages (from rosbags) (0.18.10)
+Requirement already satisfied: typing_extensions>=4.5 in /home/risalinux/.local/lib/python3.10/site-packages (from rosbags) (4.13.2)
+Requirement already satisfied: zstandard in /home/risalinux/.local/lib/python3.10/site-packages (from rosbags) (0.23.0)
+Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /home/risalinux/.local/lib/python3.10/site-packages (from ruamel.yaml->rosbags) (0.2.12)

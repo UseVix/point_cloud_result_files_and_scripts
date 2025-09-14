@@ -1,0 +1,21 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 198999254303
+  starting_time:
+    nanoseconds_since_epoch: 1625132069000385886
+  message_count: 127372
+  topics_with_message_count:
+    - topic_metadata:
+        name: /os_node/lidar_packets
+        type: ouster_ros/msg/PacketMsg
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 127372
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - only_lidar_packets_0.db3
+  files:
+    []

@@ -1,0 +1,1263 @@
+[0.733s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list']
+[0.734s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=False, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dffd9d91e40>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7dffd9d16980>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7dffd9d16980>>, mixin_verb=('list',))
+[6.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.493s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/media/risalinux/Seagate Basic/Dataset/NewerCollege/quad_easy/bag/ros2_quad_easy'
+[6.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.704s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extensions ['ignore', 'ignore_ament_install']
+[6.705s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extension 'ignore'
+[6.705s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extension 'ignore_ament_install'
+[6.705s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extensions ['colcon_pkg']
+[6.705s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extension 'colcon_pkg'
+[6.714s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extensions ['colcon_meta']
+[6.715s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extension 'colcon_meta'
+[6.715s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extensions ['ros']
+[6.715s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extension 'ros'
+[6.716s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extensions ['cmake', 'python']
+[6.716s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extension 'cmake'
+[6.716s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extension 'python'
+[6.716s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extensions ['python_setup_py']
+[6.716s] Level 1:colcon.colcon_core.package_identification:_identify(cloudini_bags) by extension 'python_setup_py'
+[6.717s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extensions ['ignore', 'ignore_ament_install']
+[6.717s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extension 'ignore'
+[6.717s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extension 'ignore_ament_install'
+[6.717s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extensions ['colcon_pkg']
+[6.717s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extension 'colcon_pkg'
+[6.717s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extensions ['colcon_meta']
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extension 'colcon_meta'
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extensions ['ros']
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extension 'ros'
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extensions ['cmake', 'python']
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extension 'cmake'
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extension 'python'
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extensions ['python_setup_py']
+[6.718s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2) by extension 'python_setup_py'
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extensions ['ignore', 'ignore_ament_install']
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extension 'ignore'
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extension 'ignore_ament_install'
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extensions ['colcon_pkg']
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extension 'colcon_pkg'
+[6.719s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extensions ['colcon_meta']
+[6.720s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extension 'colcon_meta'
+[6.720s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extensions ['ros']
+[6.720s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extension 'ros'
+[6.720s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extensions ['cmake', 'python']
+[6.720s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extension 'cmake'
+[6.720s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extension 'python'
+[6.720s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extensions ['python_setup_py']
+[6.721s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_12) by extension 'python_setup_py'
+[6.721s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extensions ['ignore', 'ignore_ament_install']
+[6.721s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extension 'ignore'
+[6.721s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extension 'ignore_ament_install'
+[6.722s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extensions ['colcon_pkg']
+[6.722s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extension 'colcon_pkg'
+[6.722s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extensions ['colcon_meta']
+[6.722s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extension 'colcon_meta'
+[6.722s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extensions ['ros']
+[6.722s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extension 'ros'
+[6.722s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extensions ['cmake', 'python']
+[6.723s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extension 'cmake'
+[6.723s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extension 'python'
+[6.723s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extensions ['python_setup_py']
+[6.723s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_14) by extension 'python_setup_py'
+[6.723s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extensions ['ignore', 'ignore_ament_install']
+[6.723s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extension 'ignore'
+[6.724s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extension 'ignore_ament_install'
+[6.724s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extensions ['colcon_pkg']
+[6.724s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extension 'colcon_pkg'
+[6.724s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extensions ['colcon_meta']
+[6.724s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extension 'colcon_meta'
+[6.724s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extensions ['ros']
+[6.725s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extension 'ros'
+[6.725s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extensions ['cmake', 'python']
+[6.725s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extension 'cmake'
+[6.725s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extension 'python'
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extensions ['python_setup_py']
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_16) by extension 'python_setup_py'
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extensions ['ignore', 'ignore_ament_install']
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extension 'ignore'
+[6.726s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extension 'ignore_ament_install'
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extensions ['colcon_pkg']
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extension 'colcon_pkg'
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extensions ['colcon_meta']
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extension 'colcon_meta'
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extensions ['ros']
+[6.727s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extension 'ros'
+[6.728s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extensions ['cmake', 'python']
+[6.728s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extension 'cmake'
+[6.728s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extension 'python'
+[6.728s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extensions ['python_setup_py']
+[6.728s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_18) by extension 'python_setup_py'
+[6.728s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extensions ['ignore', 'ignore_ament_install']
+[6.728s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extension 'ignore'
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extension 'ignore_ament_install'
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extensions ['colcon_pkg']
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extension 'colcon_pkg'
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extensions ['colcon_meta']
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extension 'colcon_meta'
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extensions ['ros']
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extension 'ros'
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extensions ['cmake', 'python']
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extension 'cmake'
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extension 'python'
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extensions ['python_setup_py']
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_0_20) by extension 'python_setup_py'
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extensions ['ignore', 'ignore_ament_install']
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extension 'ignore'
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extension 'ignore_ament_install'
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extensions ['colcon_pkg']
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extension 'colcon_pkg'
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extensions ['colcon_meta']
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extension 'colcon_meta'
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extensions ['ros']
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extension 'ros'
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extensions ['cmake', 'python']
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extension 'cmake'
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extension 'python'
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extensions ['python_setup_py']
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_12) by extension 'python_setup_py'
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extensions ['ignore', 'ignore_ament_install']
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extension 'ignore'
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extension 'ignore_ament_install'
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extensions ['colcon_pkg']
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extension 'colcon_pkg'
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extensions ['colcon_meta']
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extension 'colcon_meta'
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extensions ['ros']
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extension 'ros'
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extensions ['cmake', 'python']
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extension 'cmake'
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extension 'python'
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extensions ['python_setup_py']
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_14) by extension 'python_setup_py'
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extensions ['ignore', 'ignore_ament_install']
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extension 'ignore'
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extension 'ignore_ament_install'
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extensions ['colcon_pkg']
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extension 'colcon_pkg'
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extensions ['colcon_meta']
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extension 'colcon_meta'
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extensions ['ros']
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extension 'ros'
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extensions ['cmake', 'python']
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extension 'cmake'
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extension 'python'
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extensions ['python_setup_py']
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_16) by extension 'python_setup_py'
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extensions ['ignore', 'ignore_ament_install']
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extension 'ignore'
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extension 'ignore_ament_install'
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extensions ['colcon_pkg']
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extension 'colcon_pkg'
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extensions ['colcon_meta']
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extension 'colcon_meta'
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extensions ['ros']
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extension 'ros'
+[6.739s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extensions ['cmake', 'python']
+[6.739s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extension 'cmake'
+[6.739s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extension 'python'
+[6.739s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extensions ['python_setup_py']
+[6.739s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_18) by extension 'python_setup_py'
+[6.739s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extensions ['ignore', 'ignore_ament_install']
+[6.740s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extension 'ignore'
+[6.740s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extension 'ignore_ament_install'
+[6.740s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extensions ['colcon_pkg']
+[6.740s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extension 'colcon_pkg'
+[6.740s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extensions ['colcon_meta']
+[6.740s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extension 'colcon_meta'
+[6.740s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extensions ['ros']
+[6.741s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extension 'ros'
+[6.741s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extensions ['cmake', 'python']
+[6.741s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extension 'cmake'
+[6.741s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extension 'python'
+[6.741s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extensions ['python_setup_py']
+[6.741s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_3_20) by extension 'python_setup_py'
+[6.742s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extensions ['ignore', 'ignore_ament_install']
+[6.742s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extension 'ignore'
+[6.742s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extension 'ignore_ament_install'
+[6.742s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extensions ['colcon_pkg']
+[6.742s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extension 'colcon_pkg'
+[6.742s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extensions ['colcon_meta']
+[6.742s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extension 'colcon_meta'
+[6.743s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extensions ['ros']
+[6.743s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extension 'ros'
+[6.743s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extensions ['cmake', 'python']
+[6.743s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extension 'cmake'
+[6.743s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extension 'python'
+[6.743s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extensions ['python_setup_py']
+[6.743s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_12) by extension 'python_setup_py'
+[6.744s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extensions ['ignore', 'ignore_ament_install']
+[6.744s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extension 'ignore'
+[6.744s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extension 'ignore_ament_install'
+[6.744s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extensions ['colcon_pkg']
+[6.744s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extension 'colcon_pkg'
+[6.744s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extensions ['colcon_meta']
+[6.744s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extension 'colcon_meta'
+[6.745s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extensions ['ros']
+[6.745s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extension 'ros'
+[6.745s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extensions ['cmake', 'python']
+[6.745s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extension 'cmake'
+[6.745s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extension 'python'
+[6.745s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extensions ['python_setup_py']
+[6.745s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_14) by extension 'python_setup_py'
+[6.746s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extensions ['ignore', 'ignore_ament_install']
+[6.746s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extension 'ignore'
+[6.746s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extension 'ignore_ament_install'
+[6.746s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extensions ['colcon_pkg']
+[6.746s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extension 'colcon_pkg'
+[6.746s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extensions ['colcon_meta']
+[6.746s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extension 'colcon_meta'
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extensions ['ros']
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extension 'ros'
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extensions ['cmake', 'python']
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extension 'cmake'
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extension 'python'
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extensions ['python_setup_py']
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_16) by extension 'python_setup_py'
+[6.748s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extensions ['ignore', 'ignore_ament_install']
+[6.748s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extension 'ignore'
+[6.748s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extension 'ignore_ament_install'
+[6.748s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extensions ['colcon_pkg']
+[6.748s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extension 'colcon_pkg'
+[6.748s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extensions ['colcon_meta']
+[6.748s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extension 'colcon_meta'
+[6.749s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extensions ['ros']
+[6.749s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extension 'ros'
+[6.749s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extensions ['cmake', 'python']
+[6.749s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extension 'cmake'
+[6.749s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extension 'python'
+[6.749s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extensions ['python_setup_py']
+[6.749s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_18) by extension 'python_setup_py'
+[6.750s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extensions ['ignore', 'ignore_ament_install']
+[6.750s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extension 'ignore'
+[6.750s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extension 'ignore_ament_install'
+[6.750s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extensions ['colcon_pkg']
+[6.750s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extension 'colcon_pkg'
+[6.750s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extensions ['colcon_meta']
+[6.750s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extension 'colcon_meta'
+[6.751s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extensions ['ros']
+[6.751s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extension 'ros'
+[6.751s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extensions ['cmake', 'python']
+[6.751s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extension 'cmake'
+[6.751s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extension 'python'
+[6.751s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extensions ['python_setup_py']
+[6.751s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_6_20) by extension 'python_setup_py'
+[6.752s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extensions ['ignore', 'ignore_ament_install']
+[6.752s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extension 'ignore'
+[6.752s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extension 'ignore_ament_install'
+[6.752s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extensions ['colcon_pkg']
+[6.752s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extension 'colcon_pkg'
+[6.752s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extensions ['colcon_meta']
+[6.752s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extension 'colcon_meta'
+[6.753s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extensions ['ros']
+[6.753s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extension 'ros'
+[6.753s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extensions ['cmake', 'python']
+[6.753s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extension 'cmake'
+[6.753s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extension 'python'
+[6.753s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extensions ['python_setup_py']
+[6.753s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_12) by extension 'python_setup_py'
+[6.754s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extensions ['ignore', 'ignore_ament_install']
+[6.754s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extension 'ignore'
+[6.754s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extension 'ignore_ament_install'
+[6.754s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extensions ['colcon_pkg']
+[6.754s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extension 'colcon_pkg'
+[6.754s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extensions ['colcon_meta']
+[6.754s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extension 'colcon_meta'
+[6.755s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extensions ['ros']
+[6.755s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extension 'ros'
+[6.755s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extensions ['cmake', 'python']
+[6.755s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extension 'cmake'
+[6.755s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extension 'python'
+[6.755s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extensions ['python_setup_py']
+[6.755s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_14) by extension 'python_setup_py'
+[6.756s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extensions ['ignore', 'ignore_ament_install']
+[6.756s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extension 'ignore'
+[6.756s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extension 'ignore_ament_install'
+[6.756s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extensions ['colcon_pkg']
+[6.756s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extension 'colcon_pkg'
+[6.756s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extensions ['colcon_meta']
+[6.756s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extension 'colcon_meta'
+[6.756s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extensions ['ros']
+[6.757s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extension 'ros'
+[6.757s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extensions ['cmake', 'python']
+[6.757s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extension 'cmake'
+[6.757s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extension 'python'
+[6.757s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extensions ['python_setup_py']
+[6.757s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_16) by extension 'python_setup_py'
+[6.758s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extensions ['ignore', 'ignore_ament_install']
+[6.758s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extension 'ignore'
+[6.758s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extension 'ignore_ament_install'
+[6.758s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extensions ['colcon_pkg']
+[6.758s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extension 'colcon_pkg'
+[6.758s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extensions ['colcon_meta']
+[6.758s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extension 'colcon_meta'
+[6.758s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extensions ['ros']
+[6.759s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extension 'ros'
+[6.759s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extensions ['cmake', 'python']
+[6.759s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extension 'cmake'
+[6.759s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extension 'python'
+[6.759s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extensions ['python_setup_py']
+[6.759s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_18) by extension 'python_setup_py'
+[6.760s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extensions ['ignore', 'ignore_ament_install']
+[6.760s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extension 'ignore'
+[6.760s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extension 'ignore_ament_install'
+[6.760s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extensions ['colcon_pkg']
+[6.760s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extension 'colcon_pkg'
+[6.760s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extensions ['colcon_meta']
+[6.760s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extension 'colcon_meta'
+[6.760s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extensions ['ros']
+[6.761s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extension 'ros'
+[6.761s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extensions ['cmake', 'python']
+[6.761s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extension 'cmake'
+[6.761s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extension 'python'
+[6.761s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extensions ['python_setup_py']
+[6.761s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_0_9_20) by extension 'python_setup_py'
+[6.762s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extensions ['ignore', 'ignore_ament_install']
+[6.762s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extension 'ignore'
+[6.762s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extension 'ignore_ament_install'
+[6.762s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extensions ['colcon_pkg']
+[6.762s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extension 'colcon_pkg'
+[6.762s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extensions ['colcon_meta']
+[6.762s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extension 'colcon_meta'
+[6.762s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extensions ['ros']
+[6.762s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extension 'ros'
+[6.763s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extensions ['cmake', 'python']
+[6.763s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extension 'cmake'
+[6.763s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extension 'python'
+[6.763s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extensions ['python_setup_py']
+[6.763s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_12) by extension 'python_setup_py'
+[6.764s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extensions ['ignore', 'ignore_ament_install']
+[6.764s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extension 'ignore'
+[6.764s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extension 'ignore_ament_install'
+[6.764s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extensions ['colcon_pkg']
+[6.764s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extension 'colcon_pkg'
+[6.764s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extensions ['colcon_meta']
+[6.764s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extension 'colcon_meta'
+[6.764s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extensions ['ros']
+[6.764s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extension 'ros'
+[6.765s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extensions ['cmake', 'python']
+[6.765s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extension 'cmake'
+[6.765s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extension 'python'
+[6.765s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extensions ['python_setup_py']
+[6.765s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_14) by extension 'python_setup_py'
+[6.765s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extensions ['ignore', 'ignore_ament_install']
+[6.766s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extension 'ignore'
+[6.766s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extension 'ignore_ament_install'
+[6.766s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extensions ['colcon_pkg']
+[6.766s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extension 'colcon_pkg'
+[6.766s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extensions ['colcon_meta']
+[6.766s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extension 'colcon_meta'
+[6.766s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extensions ['ros']
+[6.766s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extension 'ros'
+[6.767s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extensions ['cmake', 'python']
+[6.767s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extension 'cmake'
+[6.767s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extension 'python'
+[6.767s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extensions ['python_setup_py']
+[6.767s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_16) by extension 'python_setup_py'
+[6.767s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extensions ['ignore', 'ignore_ament_install']
+[6.768s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extension 'ignore'
+[6.768s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extension 'ignore_ament_install'
+[6.768s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extensions ['colcon_pkg']
+[6.768s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extension 'colcon_pkg'
+[6.768s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extensions ['colcon_meta']
+[6.768s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extension 'colcon_meta'
+[6.768s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extensions ['ros']
+[6.768s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extension 'ros'
+[6.769s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extensions ['cmake', 'python']
+[6.769s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extension 'cmake'
+[6.769s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extension 'python'
+[6.769s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extensions ['python_setup_py']
+[6.769s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_18) by extension 'python_setup_py'
+[6.769s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extensions ['ignore', 'ignore_ament_install']
+[6.770s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extension 'ignore'
+[6.770s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extension 'ignore_ament_install'
+[6.770s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extensions ['colcon_pkg']
+[6.770s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extension 'colcon_pkg'
+[6.770s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extensions ['colcon_meta']
+[6.770s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extension 'colcon_meta'
+[6.770s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extensions ['ros']
+[6.770s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extension 'ros'
+[6.771s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extensions ['cmake', 'python']
+[6.771s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extension 'cmake'
+[6.771s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extension 'python'
+[6.771s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extensions ['python_setup_py']
+[6.771s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_0_20) by extension 'python_setup_py'
+[6.771s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extensions ['ignore', 'ignore_ament_install']
+[6.772s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extension 'ignore'
+[6.772s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extension 'ignore_ament_install'
+[6.772s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extensions ['colcon_pkg']
+[6.772s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extension 'colcon_pkg'
+[6.772s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extensions ['colcon_meta']
+[6.772s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extension 'colcon_meta'
+[6.772s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extensions ['ros']
+[6.772s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extension 'ros'
+[6.773s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extensions ['cmake', 'python']
+[6.773s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extension 'cmake'
+[6.773s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extension 'python'
+[6.773s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extensions ['python_setup_py']
+[6.773s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_12) by extension 'python_setup_py'
+[6.773s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extensions ['ignore', 'ignore_ament_install']
+[6.774s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extension 'ignore'
+[6.774s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extension 'ignore_ament_install'
+[6.774s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extensions ['colcon_pkg']
+[6.774s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extension 'colcon_pkg'
+[6.774s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extensions ['colcon_meta']
+[6.774s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extension 'colcon_meta'
+[6.774s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extensions ['ros']
+[6.774s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extension 'ros'
+[6.775s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extensions ['cmake', 'python']
+[6.775s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extension 'cmake'
+[6.775s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extension 'python'
+[6.775s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extensions ['python_setup_py']
+[6.775s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_14) by extension 'python_setup_py'
+[6.775s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extensions ['ignore', 'ignore_ament_install']
+[6.775s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extension 'ignore'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extension 'ignore_ament_install'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extensions ['colcon_pkg']
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extension 'colcon_pkg'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extensions ['colcon_meta']
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extension 'colcon_meta'
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extensions ['ros']
+[6.776s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extension 'ros'
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extensions ['cmake', 'python']
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extension 'cmake'
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extension 'python'
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extensions ['python_setup_py']
+[6.777s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_16) by extension 'python_setup_py'
+[6.778s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extensions ['ignore', 'ignore_ament_install']
+[6.778s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extension 'ignore'
+[6.778s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extension 'ignore_ament_install'
+[6.779s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extensions ['colcon_pkg']
+[6.779s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extension 'colcon_pkg'
+[6.779s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extensions ['colcon_meta']
+[6.779s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extension 'colcon_meta'
+[6.779s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extensions ['ros']
+[6.779s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extension 'ros'
+[6.780s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extensions ['cmake', 'python']
+[6.780s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extension 'cmake'
+[6.780s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extension 'python'
+[6.780s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extensions ['python_setup_py']
+[6.781s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_18) by extension 'python_setup_py'
+[6.781s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extensions ['ignore', 'ignore_ament_install']
+[6.781s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extension 'ignore'
+[6.781s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extension 'ignore_ament_install'
+[6.782s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extensions ['colcon_pkg']
+[6.782s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extension 'colcon_pkg'
+[6.782s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extensions ['colcon_meta']
+[6.782s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extension 'colcon_meta'
+[6.782s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extensions ['ros']
+[6.782s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extension 'ros'
+[6.783s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extensions ['cmake', 'python']
+[6.783s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extension 'cmake'
+[6.783s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extension 'python'
+[6.783s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extensions ['python_setup_py']
+[6.784s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_3_20) by extension 'python_setup_py'
+[6.784s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extensions ['ignore', 'ignore_ament_install']
+[6.784s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extension 'ignore'
+[6.784s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extension 'ignore_ament_install'
+[6.785s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extensions ['colcon_pkg']
+[6.785s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extension 'colcon_pkg'
+[6.785s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extensions ['colcon_meta']
+[6.785s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extension 'colcon_meta'
+[6.785s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extensions ['ros']
+[6.785s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extension 'ros'
+[6.786s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extensions ['cmake', 'python']
+[6.786s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extension 'cmake'
+[6.786s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extension 'python'
+[6.786s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extensions ['python_setup_py']
+[6.787s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_12) by extension 'python_setup_py'
+[6.787s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extensions ['ignore', 'ignore_ament_install']
+[6.787s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extension 'ignore'
+[6.788s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extension 'ignore_ament_install'
+[6.788s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extensions ['colcon_pkg']
+[6.788s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extension 'colcon_pkg'
+[6.788s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extensions ['colcon_meta']
+[6.788s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extension 'colcon_meta'
+[6.788s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extensions ['ros']
+[6.789s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extension 'ros'
+[6.789s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extensions ['cmake', 'python']
+[6.789s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extension 'cmake'
+[6.789s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extension 'python'
+[6.790s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extensions ['python_setup_py']
+[6.790s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_14) by extension 'python_setup_py'
+[6.790s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extensions ['ignore', 'ignore_ament_install']
+[6.790s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extension 'ignore'
+[6.791s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extension 'ignore_ament_install'
+[6.791s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extensions ['colcon_pkg']
+[6.791s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extension 'colcon_pkg'
+[6.791s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extensions ['colcon_meta']
+[6.791s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extension 'colcon_meta'
+[6.792s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extensions ['ros']
+[6.792s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extension 'ros'
+[6.792s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extensions ['cmake', 'python']
+[6.792s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extension 'cmake'
+[6.792s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extension 'python'
+[6.793s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extensions ['python_setup_py']
+[6.793s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_16) by extension 'python_setup_py'
+[6.793s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extensions ['ignore', 'ignore_ament_install']
+[6.793s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extension 'ignore'
+[6.794s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extension 'ignore_ament_install'
+[6.794s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extensions ['colcon_pkg']
+[6.794s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extension 'colcon_pkg'
+[6.794s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extensions ['colcon_meta']
+[6.794s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extension 'colcon_meta'
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extensions ['ros']
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extension 'ros'
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extensions ['cmake', 'python']
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extension 'cmake'
+[6.796s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extension 'python'
+[6.796s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extensions ['python_setup_py']
+[6.796s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_18) by extension 'python_setup_py'
+[6.797s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extensions ['ignore', 'ignore_ament_install']
+[6.797s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extension 'ignore'
+[6.797s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extension 'ignore_ament_install'
+[6.797s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extensions ['colcon_pkg']
+[6.797s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extension 'colcon_pkg'
+[6.797s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extensions ['colcon_meta']
+[6.797s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extension 'colcon_meta'
+[6.797s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extensions ['ros']
+[6.798s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extension 'ros'
+[6.798s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extensions ['cmake', 'python']
+[6.798s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extension 'cmake'
+[6.798s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extension 'python'
+[6.798s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extensions ['python_setup_py']
+[6.798s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_6_20) by extension 'python_setup_py'
+[6.799s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extensions ['ignore', 'ignore_ament_install']
+[6.799s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extension 'ignore'
+[6.799s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extension 'ignore_ament_install'
+[6.799s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extensions ['colcon_pkg']
+[6.799s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extension 'colcon_pkg'
+[6.799s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extensions ['colcon_meta']
+[6.799s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extension 'colcon_meta'
+[6.800s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extensions ['ros']
+[6.800s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extension 'ros'
+[6.800s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extensions ['cmake', 'python']
+[6.800s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extension 'cmake'
+[6.800s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extension 'python'
+[6.800s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extensions ['python_setup_py']
+[6.800s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_12) by extension 'python_setup_py'
+[6.801s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extensions ['ignore', 'ignore_ament_install']
+[6.801s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extension 'ignore'
+[6.801s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extension 'ignore_ament_install'
+[6.801s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extensions ['colcon_pkg']
+[6.801s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extension 'colcon_pkg'
+[6.801s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extensions ['colcon_meta']
+[6.802s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extension 'colcon_meta'
+[6.802s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extensions ['ros']
+[6.802s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extension 'ros'
+[6.802s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extensions ['cmake', 'python']
+[6.802s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extension 'cmake'
+[6.802s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extension 'python'
+[6.802s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extensions ['python_setup_py']
+[6.802s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_14) by extension 'python_setup_py'
+[6.803s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extensions ['ignore', 'ignore_ament_install']
+[6.803s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extension 'ignore'
+[6.803s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extension 'ignore_ament_install'
+[6.803s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extensions ['colcon_pkg']
+[6.803s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extension 'colcon_pkg'
+[6.803s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extensions ['colcon_meta']
+[6.804s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extension 'colcon_meta'
+[6.804s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extensions ['ros']
+[6.804s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extension 'ros'
+[6.804s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extensions ['cmake', 'python']
+[6.804s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extension 'cmake'
+[6.804s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extension 'python'
+[6.804s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extensions ['python_setup_py']
+[6.804s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_16) by extension 'python_setup_py'
+[6.805s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extensions ['ignore', 'ignore_ament_install']
+[6.805s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extension 'ignore'
+[6.805s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extension 'ignore_ament_install'
+[6.805s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extensions ['colcon_pkg']
+[6.805s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extension 'colcon_pkg'
+[6.805s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extensions ['colcon_meta']
+[6.806s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extension 'colcon_meta'
+[6.806s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extensions ['ros']
+[6.806s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extension 'ros'
+[6.806s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extensions ['cmake', 'python']
+[6.806s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extension 'cmake'
+[6.806s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extension 'python'
+[6.806s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extensions ['python_setup_py']
+[6.806s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_18) by extension 'python_setup_py'
+[6.807s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extensions ['ignore', 'ignore_ament_install']
+[6.807s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extension 'ignore'
+[6.807s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extension 'ignore_ament_install'
+[6.807s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extensions ['colcon_pkg']
+[6.807s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extension 'colcon_pkg'
+[6.807s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extensions ['colcon_meta']
+[6.808s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extension 'colcon_meta'
+[6.808s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extensions ['ros']
+[6.808s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extension 'ros'
+[6.808s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extensions ['cmake', 'python']
+[6.808s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extension 'cmake'
+[6.808s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extension 'python'
+[6.808s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extensions ['python_setup_py']
+[6.808s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_3_9_20) by extension 'python_setup_py'
+[6.809s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extensions ['ignore', 'ignore_ament_install']
+[6.809s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extension 'ignore'
+[6.809s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extension 'ignore_ament_install'
+[6.809s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extensions ['colcon_pkg']
+[6.809s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extension 'colcon_pkg'
+[6.809s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extensions ['colcon_meta']
+[6.810s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extension 'colcon_meta'
+[6.810s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extensions ['ros']
+[6.810s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extension 'ros'
+[6.810s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extensions ['cmake', 'python']
+[6.810s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extension 'cmake'
+[6.810s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extension 'python'
+[6.810s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extensions ['python_setup_py']
+[6.810s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_12) by extension 'python_setup_py'
+[6.811s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extensions ['ignore', 'ignore_ament_install']
+[6.811s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extension 'ignore'
+[6.811s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extension 'ignore_ament_install'
+[6.811s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extensions ['colcon_pkg']
+[6.811s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extension 'colcon_pkg'
+[6.811s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extensions ['colcon_meta']
+[6.812s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extension 'colcon_meta'
+[6.812s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extensions ['ros']
+[6.812s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extension 'ros'
+[6.812s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extensions ['cmake', 'python']
+[6.812s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extension 'cmake'
+[6.812s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extension 'python'
+[6.812s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extensions ['python_setup_py']
+[6.812s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_14) by extension 'python_setup_py'
+[6.813s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extensions ['ignore', 'ignore_ament_install']
+[6.813s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extension 'ignore'
+[6.813s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extension 'ignore_ament_install'
+[6.813s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extensions ['colcon_pkg']
+[6.813s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extension 'colcon_pkg'
+[6.813s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extensions ['colcon_meta']
+[6.813s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extension 'colcon_meta'
+[6.814s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extensions ['ros']
+[6.814s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extension 'ros'
+[6.814s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extensions ['cmake', 'python']
+[6.814s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extension 'cmake'
+[6.814s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extension 'python'
+[6.814s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extensions ['python_setup_py']
+[6.814s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_16) by extension 'python_setup_py'
+[6.815s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extensions ['ignore', 'ignore_ament_install']
+[6.815s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extension 'ignore'
+[6.815s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extension 'ignore_ament_install'
+[6.815s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extensions ['colcon_pkg']
+[6.815s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extension 'colcon_pkg'
+[6.815s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extensions ['colcon_meta']
+[6.815s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extension 'colcon_meta'
+[6.816s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extensions ['ros']
+[6.816s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extension 'ros'
+[6.816s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extensions ['cmake', 'python']
+[6.816s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extension 'cmake'
+[6.816s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extension 'python'
+[6.816s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extensions ['python_setup_py']
+[6.816s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_18) by extension 'python_setup_py'
+[6.817s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extensions ['ignore', 'ignore_ament_install']
+[6.817s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extension 'ignore'
+[6.817s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extension 'ignore_ament_install'
+[6.817s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extensions ['colcon_pkg']
+[6.817s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extension 'colcon_pkg'
+[6.817s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extensions ['colcon_meta']
+[6.817s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extension 'colcon_meta'
+[6.818s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extensions ['ros']
+[6.818s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extension 'ros'
+[6.818s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extensions ['cmake', 'python']
+[6.818s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extension 'cmake'
+[6.818s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extension 'python'
+[6.818s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extensions ['python_setup_py']
+[6.818s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_0_20) by extension 'python_setup_py'
+[6.819s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extensions ['ignore', 'ignore_ament_install']
+[6.819s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extension 'ignore'
+[6.819s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extension 'ignore_ament_install'
+[6.819s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extensions ['colcon_pkg']
+[6.819s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extension 'colcon_pkg'
+[6.819s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extensions ['colcon_meta']
+[6.819s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extension 'colcon_meta'
+[6.819s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extensions ['ros']
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extension 'ros'
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extensions ['cmake', 'python']
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extension 'cmake'
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extension 'python'
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extensions ['python_setup_py']
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_12) by extension 'python_setup_py'
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extensions ['ignore', 'ignore_ament_install']
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extension 'ignore'
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extension 'ignore_ament_install'
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extensions ['colcon_pkg']
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extension 'colcon_pkg'
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extensions ['colcon_meta']
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extension 'colcon_meta'
+[6.821s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extensions ['ros']
+[6.822s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extension 'ros'
+[6.822s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extensions ['cmake', 'python']
+[6.822s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extension 'cmake'
+[6.822s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extension 'python'
+[6.822s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extensions ['python_setup_py']
+[6.822s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_14) by extension 'python_setup_py'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extensions ['ignore', 'ignore_ament_install']
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extension 'ignore'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extension 'ignore_ament_install'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extensions ['colcon_pkg']
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extension 'colcon_pkg'
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extensions ['colcon_meta']
+[6.823s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extension 'colcon_meta'
+[6.824s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extensions ['ros']
+[6.824s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extension 'ros'
+[6.824s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extensions ['cmake', 'python']
+[6.824s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extension 'cmake'
+[6.824s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extension 'python'
+[6.824s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extensions ['python_setup_py']
+[6.824s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_16) by extension 'python_setup_py'
+[6.825s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extensions ['ignore', 'ignore_ament_install']
+[6.825s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extension 'ignore'
+[6.825s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extension 'ignore_ament_install'
+[6.825s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extensions ['colcon_pkg']
+[6.825s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extension 'colcon_pkg'
+[6.825s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extensions ['colcon_meta']
+[6.826s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extension 'colcon_meta'
+[6.826s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extensions ['ros']
+[6.826s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extension 'ros'
+[6.826s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extensions ['cmake', 'python']
+[6.826s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extension 'cmake'
+[6.826s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extension 'python'
+[6.826s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extensions ['python_setup_py']
+[6.827s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_18) by extension 'python_setup_py'
+[6.827s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extensions ['ignore', 'ignore_ament_install']
+[6.827s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extension 'ignore'
+[6.827s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extension 'ignore_ament_install'
+[6.827s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extensions ['colcon_pkg']
+[6.827s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extension 'colcon_pkg'
+[6.828s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extensions ['colcon_meta']
+[6.828s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extension 'colcon_meta'
+[6.828s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extensions ['ros']
+[6.828s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extension 'ros'
+[6.828s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extensions ['cmake', 'python']
+[6.828s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extension 'cmake'
+[6.828s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extension 'python'
+[6.828s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extensions ['python_setup_py']
+[6.829s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_3_20) by extension 'python_setup_py'
+[6.829s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extensions ['ignore', 'ignore_ament_install']
+[6.829s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extension 'ignore'
+[6.829s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extension 'ignore_ament_install'
+[6.829s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extensions ['colcon_pkg']
+[6.829s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extension 'colcon_pkg'
+[6.830s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extensions ['colcon_meta']
+[6.830s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extension 'colcon_meta'
+[6.830s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extensions ['ros']
+[6.830s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extension 'ros'
+[6.830s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extensions ['cmake', 'python']
+[6.830s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extension 'cmake'
+[6.830s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extension 'python'
+[6.830s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extensions ['python_setup_py']
+[6.831s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_12) by extension 'python_setup_py'
+[6.831s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extensions ['ignore', 'ignore_ament_install']
+[6.831s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extension 'ignore'
+[6.831s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extension 'ignore_ament_install'
+[6.831s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extensions ['colcon_pkg']
+[6.831s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extension 'colcon_pkg'
+[6.832s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extensions ['colcon_meta']
+[6.832s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extension 'colcon_meta'
+[6.832s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extensions ['ros']
+[6.832s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extension 'ros'
+[6.832s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extensions ['cmake', 'python']
+[6.832s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extension 'cmake'
+[6.832s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extension 'python'
+[6.832s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extensions ['python_setup_py']
+[6.833s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_14) by extension 'python_setup_py'
+[6.833s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extensions ['ignore', 'ignore_ament_install']
+[6.833s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extension 'ignore'
+[6.833s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extension 'ignore_ament_install'
+[6.833s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extensions ['colcon_pkg']
+[6.833s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extension 'colcon_pkg'
+[6.834s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extensions ['colcon_meta']
+[6.834s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extension 'colcon_meta'
+[6.834s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extensions ['ros']
+[6.834s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extension 'ros'
+[6.834s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extensions ['cmake', 'python']
+[6.834s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extension 'cmake'
+[6.834s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extension 'python'
+[6.834s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extensions ['python_setup_py']
+[6.835s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_16) by extension 'python_setup_py'
+[6.835s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extensions ['ignore', 'ignore_ament_install']
+[6.835s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extension 'ignore'
+[6.835s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extension 'ignore_ament_install'
+[6.835s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extensions ['colcon_pkg']
+[6.835s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extension 'colcon_pkg'
+[6.836s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extensions ['colcon_meta']
+[6.836s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extension 'colcon_meta'
+[6.836s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extensions ['ros']
+[6.836s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extension 'ros'
+[6.836s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extensions ['cmake', 'python']
+[6.836s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extension 'cmake'
+[6.836s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extension 'python'
+[6.836s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extensions ['python_setup_py']
+[6.837s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_18) by extension 'python_setup_py'
+[6.837s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extensions ['ignore', 'ignore_ament_install']
+[6.837s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extension 'ignore'
+[6.837s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extension 'ignore_ament_install'
+[6.837s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extensions ['colcon_pkg']
+[6.837s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extension 'colcon_pkg'
+[6.838s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extensions ['colcon_meta']
+[6.838s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extension 'colcon_meta'
+[6.838s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extensions ['ros']
+[6.838s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extension 'ros'
+[6.838s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extensions ['cmake', 'python']
+[6.838s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extension 'cmake'
+[6.838s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extension 'python'
+[6.838s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extensions ['python_setup_py']
+[6.838s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_6_20) by extension 'python_setup_py'
+[6.839s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extensions ['ignore', 'ignore_ament_install']
+[6.839s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extension 'ignore'
+[6.839s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extension 'ignore_ament_install'
+[6.839s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extensions ['colcon_pkg']
+[6.839s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extension 'colcon_pkg'
+[6.839s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extensions ['colcon_meta']
+[6.840s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extension 'colcon_meta'
+[6.840s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extensions ['ros']
+[6.840s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extension 'ros'
+[6.840s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extensions ['cmake', 'python']
+[6.840s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extension 'cmake'
+[6.840s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extension 'python'
+[6.840s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extensions ['python_setup_py']
+[6.840s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_12) by extension 'python_setup_py'
+[6.841s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extensions ['ignore', 'ignore_ament_install']
+[6.841s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extension 'ignore'
+[6.841s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extension 'ignore_ament_install'
+[6.841s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extensions ['colcon_pkg']
+[6.841s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extension 'colcon_pkg'
+[6.841s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extensions ['colcon_meta']
+[6.841s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extension 'colcon_meta'
+[6.842s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extensions ['ros']
+[6.842s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extension 'ros'
+[6.842s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extensions ['cmake', 'python']
+[6.842s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extension 'cmake'
+[6.842s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extension 'python'
+[6.842s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extensions ['python_setup_py']
+[6.842s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_14) by extension 'python_setup_py'
+[6.843s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extensions ['ignore', 'ignore_ament_install']
+[6.843s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extension 'ignore'
+[6.843s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extension 'ignore_ament_install'
+[6.843s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extensions ['colcon_pkg']
+[6.843s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extension 'colcon_pkg'
+[6.843s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extensions ['colcon_meta']
+[6.843s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extension 'colcon_meta'
+[6.844s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extensions ['ros']
+[6.844s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extension 'ros'
+[6.844s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extensions ['cmake', 'python']
+[6.844s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extension 'cmake'
+[6.844s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extension 'python'
+[6.844s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extensions ['python_setup_py']
+[6.844s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_16) by extension 'python_setup_py'
+[6.845s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extensions ['ignore', 'ignore_ament_install']
+[6.845s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extension 'ignore'
+[6.845s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extension 'ignore_ament_install'
+[6.845s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extensions ['colcon_pkg']
+[6.845s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extension 'colcon_pkg'
+[6.845s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extensions ['colcon_meta']
+[6.845s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extension 'colcon_meta'
+[6.846s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extensions ['ros']
+[6.846s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extension 'ros'
+[6.846s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extensions ['cmake', 'python']
+[6.846s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extension 'cmake'
+[6.846s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extension 'python'
+[6.846s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extensions ['python_setup_py']
+[6.846s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_18) by extension 'python_setup_py'
+[6.847s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extensions ['ignore', 'ignore_ament_install']
+[6.847s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extension 'ignore'
+[6.847s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extension 'ignore_ament_install'
+[6.847s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extensions ['colcon_pkg']
+[6.847s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extension 'colcon_pkg'
+[6.847s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extensions ['colcon_meta']
+[6.847s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extension 'colcon_meta'
+[6.848s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extensions ['ros']
+[6.848s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extension 'ros'
+[6.848s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extensions ['cmake', 'python']
+[6.848s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extension 'cmake'
+[6.848s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extension 'python'
+[6.848s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extensions ['python_setup_py']
+[6.848s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_6_9_20) by extension 'python_setup_py'
+[6.849s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extensions ['ignore', 'ignore_ament_install']
+[6.849s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extension 'ignore'
+[6.849s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extension 'ignore_ament_install'
+[6.849s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extensions ['colcon_pkg']
+[6.849s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extension 'colcon_pkg'
+[6.849s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extensions ['colcon_meta']
+[6.849s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extension 'colcon_meta'
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extensions ['ros']
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extension 'ros'
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extensions ['cmake', 'python']
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extension 'cmake'
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extension 'python'
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extensions ['python_setup_py']
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_12) by extension 'python_setup_py'
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extensions ['ignore', 'ignore_ament_install']
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extension 'ignore'
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extension 'ignore_ament_install'
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extensions ['colcon_pkg']
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extension 'colcon_pkg'
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extensions ['colcon_meta']
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extension 'colcon_meta'
+[6.852s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extensions ['ros']
+[6.852s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extension 'ros'
+[6.852s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extensions ['cmake', 'python']
+[6.852s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extension 'cmake'
+[6.852s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extension 'python'
+[6.852s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extensions ['python_setup_py']
+[6.852s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_14) by extension 'python_setup_py'
+[6.853s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extensions ['ignore', 'ignore_ament_install']
+[6.853s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extension 'ignore'
+[6.853s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extension 'ignore_ament_install'
+[6.853s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extensions ['colcon_pkg']
+[6.853s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extension 'colcon_pkg'
+[6.853s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extensions ['colcon_meta']
+[6.853s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extension 'colcon_meta'
+[6.853s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extensions ['ros']
+[6.854s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extension 'ros'
+[6.854s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extensions ['cmake', 'python']
+[6.854s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extension 'cmake'
+[6.854s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extension 'python'
+[6.854s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extensions ['python_setup_py']
+[6.854s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_16) by extension 'python_setup_py'
+[6.855s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extensions ['ignore', 'ignore_ament_install']
+[6.855s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extension 'ignore'
+[6.855s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extension 'ignore_ament_install'
+[6.855s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extensions ['colcon_pkg']
+[6.855s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extension 'colcon_pkg'
+[6.855s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extensions ['colcon_meta']
+[6.855s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extension 'colcon_meta'
+[6.855s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extensions ['ros']
+[6.856s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extension 'ros'
+[6.856s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extensions ['cmake', 'python']
+[6.856s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extension 'cmake'
+[6.856s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extension 'python'
+[6.856s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extensions ['python_setup_py']
+[6.856s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_18) by extension 'python_setup_py'
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extensions ['ignore', 'ignore_ament_install']
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extension 'ignore'
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extension 'ignore_ament_install'
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extensions ['colcon_pkg']
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extension 'colcon_pkg'
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extensions ['colcon_meta']
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extension 'colcon_meta'
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extensions ['ros']
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extension 'ros'
+[6.858s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extensions ['cmake', 'python']
+[6.858s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extension 'cmake'
+[6.858s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extension 'python'
+[6.858s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extensions ['python_setup_py']
+[6.858s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_0_20) by extension 'python_setup_py'
+[6.858s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extensions ['ignore', 'ignore_ament_install']
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extension 'ignore'
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extension 'ignore_ament_install'
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extensions ['colcon_pkg']
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extension 'colcon_pkg'
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extensions ['colcon_meta']
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extension 'colcon_meta'
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extensions ['ros']
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extension 'ros'
+[6.860s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extensions ['cmake', 'python']
+[6.860s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extension 'cmake'
+[6.860s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extension 'python'
+[6.860s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extensions ['python_setup_py']
+[6.860s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_12) by extension 'python_setup_py'
+[6.860s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extensions ['ignore', 'ignore_ament_install']
+[6.861s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extension 'ignore'
+[6.861s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extension 'ignore_ament_install'
+[6.861s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extensions ['colcon_pkg']
+[6.861s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extension 'colcon_pkg'
+[6.861s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extensions ['colcon_meta']
+[6.861s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extension 'colcon_meta'
+[6.861s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extensions ['ros']
+[6.861s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extension 'ros'
+[6.862s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extensions ['cmake', 'python']
+[6.862s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extension 'cmake'
+[6.862s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extension 'python'
+[6.862s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extensions ['python_setup_py']
+[6.862s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_14) by extension 'python_setup_py'
+[6.862s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extensions ['ignore', 'ignore_ament_install']
+[6.862s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extension 'ignore'
+[6.863s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extension 'ignore_ament_install'
+[6.863s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extensions ['colcon_pkg']
+[6.863s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extension 'colcon_pkg'
+[6.863s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extensions ['colcon_meta']
+[6.863s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extension 'colcon_meta'
+[6.863s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extensions ['ros']
+[6.863s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extension 'ros'
+[6.864s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extensions ['cmake', 'python']
+[6.864s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extension 'cmake'
+[6.864s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extension 'python'
+[6.864s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extensions ['python_setup_py']
+[6.864s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_16) by extension 'python_setup_py'
+[6.864s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extensions ['ignore', 'ignore_ament_install']
+[6.864s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extension 'ignore'
+[6.865s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extension 'ignore_ament_install'
+[6.865s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extensions ['colcon_pkg']
+[6.865s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extension 'colcon_pkg'
+[6.865s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extensions ['colcon_meta']
+[6.865s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extension 'colcon_meta'
+[6.865s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extensions ['ros']
+[6.865s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extension 'ros'
+[6.865s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extensions ['cmake', 'python']
+[6.866s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extension 'cmake'
+[6.866s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extension 'python'
+[6.866s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extensions ['python_setup_py']
+[6.866s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_18) by extension 'python_setup_py'
+[6.866s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extensions ['ignore', 'ignore_ament_install']
+[6.866s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extension 'ignore'
+[6.867s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extension 'ignore_ament_install'
+[6.867s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extensions ['colcon_pkg']
+[6.867s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extension 'colcon_pkg'
+[6.867s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extensions ['colcon_meta']
+[6.867s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extension 'colcon_meta'
+[6.867s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extensions ['ros']
+[6.867s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extension 'ros'
+[6.868s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extensions ['cmake', 'python']
+[6.868s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extension 'cmake'
+[6.868s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extension 'python'
+[6.868s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extensions ['python_setup_py']
+[6.868s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_3_20) by extension 'python_setup_py'
+[6.868s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extensions ['ignore', 'ignore_ament_install']
+[6.868s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extension 'ignore'
+[6.869s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extension 'ignore_ament_install'
+[6.869s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extensions ['colcon_pkg']
+[6.869s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extension 'colcon_pkg'
+[6.869s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extensions ['colcon_meta']
+[6.869s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extension 'colcon_meta'
+[6.870s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extensions ['ros']
+[6.870s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extension 'ros'
+[6.870s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extensions ['cmake', 'python']
+[6.870s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extension 'cmake'
+[6.870s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extension 'python'
+[6.870s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extensions ['python_setup_py']
+[6.870s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_12) by extension 'python_setup_py'
+[6.871s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extensions ['ignore', 'ignore_ament_install']
+[6.871s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extension 'ignore'
+[6.871s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extension 'ignore_ament_install'
+[6.871s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extensions ['colcon_pkg']
+[6.871s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extension 'colcon_pkg'
+[6.871s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extensions ['colcon_meta']
+[6.871s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extension 'colcon_meta'
+[6.872s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extensions ['ros']
+[6.872s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extension 'ros'
+[6.872s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extensions ['cmake', 'python']
+[6.872s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extension 'cmake'
+[6.872s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extension 'python'
+[6.872s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extensions ['python_setup_py']
+[6.872s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_14) by extension 'python_setup_py'
+[6.873s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extensions ['ignore', 'ignore_ament_install']
+[6.873s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extension 'ignore'
+[6.873s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extension 'ignore_ament_install'
+[6.873s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extensions ['colcon_pkg']
+[6.873s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extension 'colcon_pkg'
+[6.873s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extensions ['colcon_meta']
+[6.873s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extension 'colcon_meta'
+[6.874s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extensions ['ros']
+[6.874s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extension 'ros'
+[6.874s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extensions ['cmake', 'python']
+[6.874s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extension 'cmake'
+[6.874s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extension 'python'
+[6.874s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extensions ['python_setup_py']
+[6.874s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_16) by extension 'python_setup_py'
+[6.875s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extensions ['ignore', 'ignore_ament_install']
+[6.875s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extension 'ignore'
+[6.875s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extension 'ignore_ament_install'
+[6.875s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extensions ['colcon_pkg']
+[6.875s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extension 'colcon_pkg'
+[6.875s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extensions ['colcon_meta']
+[6.875s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extension 'colcon_meta'
+[6.876s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extensions ['ros']
+[6.876s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extension 'ros'
+[6.876s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extensions ['cmake', 'python']
+[6.876s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extension 'cmake'
+[6.876s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extension 'python'
+[6.876s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extensions ['python_setup_py']
+[6.876s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_18) by extension 'python_setup_py'
+[6.877s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extensions ['ignore', 'ignore_ament_install']
+[6.877s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extension 'ignore'
+[6.877s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extension 'ignore_ament_install'
+[6.877s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extensions ['colcon_pkg']
+[6.877s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extension 'colcon_pkg'
+[6.877s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extensions ['colcon_meta']
+[6.877s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extension 'colcon_meta'
+[6.878s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extensions ['ros']
+[6.878s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extension 'ros'
+[6.878s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extensions ['cmake', 'python']
+[6.878s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extension 'cmake'
+[6.878s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extension 'python'
+[6.878s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extensions ['python_setup_py']
+[6.878s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_6_20) by extension 'python_setup_py'
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extensions ['ignore', 'ignore_ament_install']
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extension 'ignore'
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extension 'ignore_ament_install'
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extensions ['colcon_pkg']
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extension 'colcon_pkg'
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extensions ['colcon_meta']
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extension 'colcon_meta'
+[6.879s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extensions ['ros']
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extension 'ros'
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extensions ['cmake', 'python']
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extension 'cmake'
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extension 'python'
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extensions ['python_setup_py']
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_12) by extension 'python_setup_py'
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extensions ['ignore', 'ignore_ament_install']
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extension 'ignore'
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extension 'ignore_ament_install'
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extensions ['colcon_pkg']
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extension 'colcon_pkg'
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extensions ['colcon_meta']
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extension 'colcon_meta'
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extensions ['ros']
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extension 'ros'
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extensions ['cmake', 'python']
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extension 'cmake'
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extension 'python'
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extensions ['python_setup_py']
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_14) by extension 'python_setup_py'
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extensions ['ignore', 'ignore_ament_install']
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extension 'ignore'
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extension 'ignore_ament_install'
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extensions ['colcon_pkg']
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extension 'colcon_pkg'
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extensions ['colcon_meta']
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extension 'colcon_meta'
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extensions ['ros']
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extension 'ros'
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extensions ['cmake', 'python']
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extension 'cmake'
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extension 'python'
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extensions ['python_setup_py']
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_16) by extension 'python_setup_py'
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extensions ['ignore', 'ignore_ament_install']
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extension 'ignore'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extension 'ignore_ament_install'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extensions ['colcon_pkg']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extension 'colcon_pkg'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extensions ['colcon_meta']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extension 'colcon_meta'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extensions ['ros']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extension 'ros'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extensions ['cmake', 'python']
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extension 'cmake'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extension 'python'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extensions ['python_setup_py']
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_18) by extension 'python_setup_py'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extensions ['ignore', 'ignore_ament_install']
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extension 'ignore'
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extension 'ignore_ament_install'
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extensions ['colcon_pkg']
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extension 'colcon_pkg'
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extensions ['colcon_meta']
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extension 'colcon_meta'
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extensions ['ros']
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extension 'ros'
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extensions ['cmake', 'python']
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extension 'cmake'
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extension 'python'
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extensions ['python_setup_py']
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(draco_ros2_9_9_20) by extension 'python_setup_py'
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extensions ['ignore', 'ignore_ament_install']
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extension 'ignore'
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extension 'ignore_ament_install'
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extensions ['colcon_pkg']
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extension 'colcon_pkg'
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extensions ['colcon_meta']
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extension 'colcon_meta'
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extensions ['ros']
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extension 'ros'
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extensions ['cmake', 'python']
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extension 'cmake'
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extension 'python'
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extensions ['python_setup_py']
+[6.890s] Level 1:colcon.colcon_core.package_identification:_identify(kinematic_icp_base_dataset_draco) by extension 'python_setup_py'
+[6.904s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.904s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.904s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extensions ['ignore', 'ignore_ament_install']
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extension 'ignore'
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extension 'ignore_ament_install'
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extensions ['colcon_pkg']
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extension 'colcon_pkg'
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extensions ['colcon_meta']
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extension 'colcon_meta'
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extensions ['ros']
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extension 'ros'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extensions ['cmake', 'python']
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extension 'cmake'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extension 'python'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extensions ['python_setup_py']
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(only_draco_ros2) by extension 'python_setup_py'
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extensions ['ignore', 'ignore_ament_install']
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extension 'ignore'
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extension 'ignore_ament_install'
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extensions ['colcon_pkg']
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extension 'colcon_pkg'
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extensions ['colcon_meta']
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extension 'colcon_meta'
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extensions ['ros']
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extension 'ros'
+[6.908s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extensions ['cmake', 'python']
+[6.908s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extension 'cmake'
+[6.908s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extension 'python'
+[6.908s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extensions ['python_setup_py']
+[6.908s] Level 1:colcon.colcon_core.package_identification:_identify(only_lidar_packets) by extension 'python_setup_py'
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extensions ['ignore', 'ignore_ament_install']
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extension 'ignore'
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extension 'ignore_ament_install'
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extensions ['colcon_pkg']
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extension 'colcon_pkg'
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extensions ['colcon_meta']
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extension 'colcon_meta'
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extensions ['ros']
+[6.909s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extension 'ros'
+[6.910s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extensions ['cmake', 'python']
+[6.910s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extension 'cmake'
+[6.910s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extension 'python'
+[6.910s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extensions ['python_setup_py']
+[6.910s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_cloudini_db) by extension 'python_setup_py'
+[6.911s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extensions ['ignore', 'ignore_ament_install']
+[6.911s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extension 'ignore'
+[6.911s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extension 'ignore_ament_install'
+[6.911s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extensions ['colcon_pkg']
+[6.911s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extension 'colcon_pkg'
+[6.911s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extensions ['colcon_meta']
+[6.911s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extension 'colcon_meta'
+[6.911s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extensions ['ros']
+[6.911s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extension 'ros'
+[6.912s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extensions ['cmake', 'python']
+[6.912s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extension 'cmake'
+[6.912s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extension 'python'
+[6.912s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extensions ['python_setup_py']
+[6.912s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output) by extension 'python_setup_py'
+[6.912s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extensions ['ignore', 'ignore_ament_install']
+[6.913s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extension 'ignore'
+[6.913s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extension 'ignore_ament_install'
+[6.913s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extensions ['colcon_pkg']
+[6.913s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extension 'colcon_pkg'
+[6.913s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extensions ['colcon_meta']
+[6.913s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extension 'colcon_meta'
+[6.913s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extensions ['ros']
+[6.913s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extension 'ros'
+[6.914s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extensions ['cmake', 'python']
+[6.914s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extension 'cmake'
+[6.914s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extension 'python'
+[6.914s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extensions ['python_setup_py']
+[6.914s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_output_sqlite3) by extension 'python_setup_py'
+[6.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults

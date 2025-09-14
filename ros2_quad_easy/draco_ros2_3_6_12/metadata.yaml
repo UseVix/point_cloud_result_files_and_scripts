@@ -1,0 +1,26 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 198982803456
+  starting_time:
+    nanoseconds_since_epoch: 1625132068858555136
+  message_count: 1991
+  topics_with_message_count:
+    - topic_metadata:
+        name: /os_cloud_node/points/draco_ES:3_DS:6_QP:12
+        type: point_cloud_interfaces/msg/CompressedPointCloud2
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 1991
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - draco_ros2_3_6_12_0.db3
+  files:
+    - path: draco_ros2_3_6_12_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1625132068858555136
+      duration:
+        nanoseconds: 198982803456
+      message_count: 1991
